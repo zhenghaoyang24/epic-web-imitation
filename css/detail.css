@@ -1,0 +1,536 @@
+@import "basic.css";
+@import "index.css";
+
+
+/* 内容div */
+.detail_container_div{
+
+    border-top: 2px solid white;
+    flex-wrap: wrap;
+    display: flex;
+    z-index: 1;
+    position:relative;
+    width: 82%;
+    margin-left: 18%;
+    margin-top: 130px;
+    height: 3200px;
+    background-color: rgb(29, 29, 29);
+    /* background-color: rgb(70, 70, 70); */
+
+}
+
+/* 战地标题 */
+.title_video_div{
+    z-index: 4;
+    min-width: 400px;
+    position: relative;
+    /* align-items: center; */
+    /* display: block; */
+    width: 65%;
+    height: auto;
+    margin-left: 0% ;
+    background-color: rgb(29, 29, 29);
+    
+}
+.title_text{
+    display: flex;
+}
+.title_text h3{
+    font-size: 1em;
+    margin-top: 5px;
+    color: rgb(146, 146, 146);
+    font-weight: 500;
+}
+.title_text h3:hover{
+    color: rgb(250, 250, 250);
+}
+.title_text h4{
+    margin-top: 30px;
+    margin-left: -20px;
+    font-size: 2em;
+    color: aliceblue;
+}
+.video_div{
+
+
+    position: relative;
+    /* display: flex; */
+    width: 100%;
+    /* margin-left: 5%; */
+    /* width: auto; */
+    margin-top: -10px;
+    /* height: 400px; */
+    /* background-color: rgb(119, 119, 119); */
+    background-color: rgb(29, 29, 29);
+}
+.video_div video{
+    /* margin-top: 10%; */
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.image_title_div{
+
+    /* border-top: 2px  rgb(179, 179, 179) solid; */
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height:auto;
+    /* background-color: #fff; */
+    background-color: rgb(29, 29, 29);
+    /* margin-top: 300px; */
+}
+.image_title_div img{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    transition: all 0.3s;
+}
+.title_image:hover{
+    transform: scale(1.5,1.5);
+    box-shadow: 3px 3px 5px rgb(77, 77, 77),-3px -3px 5px rgb(77, 77, 77);
+}
+@media screen and (max-width: 1500px){
+    .title_6{
+        display: none;
+
+    }
+}
+@media screen and (max-width: 1100px){
+    .title_5{
+        display: none;
+
+    }
+}
+@media screen and (max-width: 870px){
+    .title_4{
+        display: none;
+
+    }
+}
+/* 右边游戏详情 */
+.shop_div{
+    z-index: 1;
+    width: 24%;
+    height: 580px;
+    background-color: rgb(29, 29, 29);
+    margin-left: 58%;
+    position: fixed;
+}
+
+.battlefield_detail_img{
+    /* display: flex; */
+    margin: auto auto;
+    margin-left: 5%;
+    width: 80%;
+    margin-top: 10%;
+}
+.jichu_div{
+    min-width: 50px;
+    display: flex;
+    width: 20%;
+    height: 25px;
+    background-color: rgb(122, 122, 122);
+    border-radius: 5px;
+}
+.jichu_div>h3{
+    color: aliceblue;
+    font-size: 0.5em;
+    margin: auto auto;
+
+}
+.price_div{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 25px;
+}
+.price_div>h3{
+    font-size: 1em;
+    margin-left: 15px;
+    text-decoration: 1px line-through rgb(189, 189, 189);
+    color: rgb(189, 189, 189);
+}
+.price_div>h4{
+    font-size: 1em;
+    margin-left: 15px;
+    color: rgb(189, 189, 189);
+}
+.discount_div{
+    display: flex;
+    width: 20%;
+    height: 25px;
+    background-color: rgb(48, 135, 206);
+    border-radius: 5px;
+}
+.discount_div h3{
+    color: aliceblue;
+    font-size: 0.5em;
+    margin: auto auto;
+}
+.rn_buy{
+    box-sizing: border-box;
+    display: flex;
+    width: 90%;
+    /* background-color: rgb(48, 135, 206); */
+    background-color: rgb(29, 29, 29);
+    border: 2px solid white;
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 15px ;
+}
+.rn_buy:hover{
+    background-color: rgb(77, 77, 77);
+}
+.rn_buy>h2{
+
+    color: aliceblue;
+    font-size: 1em;
+    margin: auto auto;
+}
+.jairu_gouwu{
+    box-sizing: border-box;
+    display: flex;
+    width: 90%;
+    /* background-color: rgb(48, 135, 206); */
+    background-color: rgb(29, 29, 29);
+    border: 2px solid rgb(48, 135, 206);
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 15px ;
+}
+.jairu_gouwu:hover{
+    background-color: rgb(77, 77, 77);
+}
+.jairu_gouwu>h2{
+    
+    color: aliceblue;
+    font-size: 1em;
+    margin: auto auto;
+}
+.join_hope{
+    display: flex;
+    width: 90%;
+    background-color: rgb(48, 135, 206);
+    /* border: 2px solid rgb(48, 135, 206); */
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 15px ;
+}
+.join_hope>h2{
+    
+    color: aliceblue;
+    font-size: 1em;
+    margin: auto auto;
+}
+.join_hope:hover{
+    background-color: rgb(101, 158, 204);
+}
+
+/* 介绍 */
+.introdece_div{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90px;
+    /* background-color: rgb(6, 129, 230); */
+    background-color: rgb(29, 29, 29);
+}
+.introdece_div>h3{
+    margin: auto 0px;
+    font-size: 1em;
+    color: aliceblue;
+}
+/* 游戏类型 */
+.game_style{
+    /* position: relative; */
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    /* margin-top: 0px; */
+}
+.style_1{
+    border-left: 2px  whitesmoke solid;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(202, 202, 82); */
+    background-color: rgb(29, 29, 29);
+}
+.style_1>h3{
+    font-size: 1.2em;
+    color: aliceblue;
+        margin-top: 40px;
+        margin-left: 25px;
+}
+.style_1>h4{
+    font-size: 1em;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.style_2{
+    border-left: 2px  whitesmoke solid;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(201, 83, 142); */
+    background-color: rgb(29, 29, 29);
+}
+.style_2>h3{
+    font-size: 1.2em;
+    color: aliceblue;
+        margin-top: 40px;
+        margin-left: 25px;
+}
+.style_2>h4{
+    font-size: 1em;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+/* 评级 */
+.evaluate_div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(29, 29, 29);
+
+}
+.pingjia_title{
+    width: 100%;
+    height: 90px;
+    /* background-color: aquamarine; */
+    background-color: rgb(29, 29, 29);
+}
+.pingjia_title h1{
+    color: aliceblue;
+    margin-top: 40px;
+    font-size: 2em;
+    font-weight: 400;
+}
+.evaluate_div_circle_1{
+    width: 33.33%;
+    height: 150px;
+    /* background-color: rgb(134, 15, 15); */
+    background-color: rgb(29, 29, 29);
+}
+.evaluate_div_circle_1>div{
+    margin-left: 40%;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: rgb(48, 135, 206);
+}
+.evaluate_div_circle_1 div>h6{
+    font-weight: 400;
+    margin: auto auto;
+    color: aliceblue;
+    font-size: 1.3em;
+}
+.evaluate_div_circle_1>h4{
+    color: aliceblue;
+    margin-left: 40%;
+}
+
+.evaluate_div_circle_2{
+    width: 33.33%;
+    height: 150px;
+    /* background-color: rgb(182, 100, 100); */
+    background-color: rgb(29, 29, 29);
+}
+.evaluate_div_circle_2>div{
+    margin-left: 40%;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: rgb(48, 135, 206);
+}
+.evaluate_div_circle_2 div>h6{
+    font-weight: 400;
+    margin: auto auto;
+    color: aliceblue;
+    font-size: 1.3em;
+}
+.evaluate_div_circle_2>h4{
+    color: aliceblue;
+    margin-left: 40%;
+}
+
+.evaluate_div_circle_3{
+    width: 33.33%;
+    height: 150px;
+    /* background-color: rgb(73, 71, 71); */
+    background-color: rgb(29, 29, 29);
+}
+.evaluate_div_circle_3>div{
+    margin-left: 40%;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: rgb(48, 135, 206);
+}
+.evaluate_div_circle_3 div>h6{
+    font-weight: 400;
+    margin: auto auto;
+    color: aliceblue;
+    font-size: 1.3em;
+}
+.evaluate_div_circle_3>h4{
+    color: aliceblue;
+    margin-left: 40%;
+}
+
+
+.detail_evaluate_div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(29, 29, 29);
+} 
+.evaluate_1{    
+    width: 30%;
+    height: 300px;
+    background-color: rgb(66, 66, 66);
+    border-bottom-right-radius: 10px;
+    /* background-color: rgb(29, 29, 29); */
+} 
+.evaluate_1>div{
+    margin-top: 1px;
+    border-bottom: 1px white solid;
+}
+.evaluate_1>div img{
+    width: 98%;
+    margin-left: 1%;
+}
+.evaluate_2{    
+    width: 30%;
+    margin-left: 5%;
+    height: 300px;
+    background-color: rgb(66, 66, 66);
+    border-bottom-right-radius: 10px;
+    /* background-color: rgb(29, 29, 29); */
+} 
+.evaluate_2>div{
+    border-bottom: 1px white solid;
+}
+.evaluate_2>div img{
+    width: 98%;
+    margin-left: 1%;
+}
+.evaluate_3{    
+    width: 30%;
+    margin-left: 5%;
+    height: 300px;
+    background-color: rgb(66, 66, 66);
+    border-bottom-right-radius: 10px;
+    /* background-color: rgb(29, 29, 29); */
+} 
+.evaluate_3>div{
+    border-bottom: 1px white solid;
+}
+.evaluate_3>div img{
+    width: 98%;
+    margin-left: 1%;
+}
+.detail_evaluate_div h4{
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 0.8em;
+    margin: 10px 10px;
+}
+/* 配置 */
+.pezhi_div{
+    width: 100%;
+    height: 850px;
+    background-color: rgb(29, 29, 29);
+}
+.pezhi_div>h3{
+    color: aliceblue;
+    font-size: 2em;
+    margin-top: 60px;
+}
+.pezhi_detail{
+    display: flex;
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    border-radius: 10px;
+    background-color: rgb(66, 66, 66);
+    margin-top: -10px;
+}
+
+.peizhi_1{
+    width: 48%;
+    margin-left: 2%;
+    height: 100%;
+    /* background-color: #fff; */
+    background-color: rgb(66, 66, 66);
+}
+.peizhi_2{
+    width: 48%;
+    margin-left: 0%;
+    height: 100%;
+    /* background-color: rgb(156, 43, 43); */
+}
+
+.peizhi_1>h3{
+    padding: auto;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+.peizhi_1>h4{
+    padding: auto;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+
+.peizhi_1>p{
+    padding: auto;
+    font-size: 1em;
+    color: aliceblue;
+}
+
+.peizhi_2>h3{
+    padding: auto;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+.peizhi_2>h4{
+    padding: auto;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+.peizhi_2>p{
+    padding: auto;
+    font-size: 1em;
+    color: aliceblue;
+}
+
+.shuoming{
+    /* display: flex; */
+    width: 90%;
+    height: auto;
+    margin-top: 100px;
+    background-color: rgb(66, 66, 66);
+    margin-left: 5%;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.shuoming h3{
+    color: aliceblue;
+}
+
+
+
+
+

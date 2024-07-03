@@ -1,0 +1,323 @@
+@import "basic.css";
+
+/* 最大的div */
+.body_div{
+    
+    position: absolute;
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* 搜索顶部 */
+.top_search_div{
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    margin-top: -9px;
+    width: 82%;
+    margin-left: 18%;
+    background-color: rgb(29, 29, 29);
+    height: 140px;
+    position:fixed;
+}
+/* 搜索框 */
+.search_input{
+    min-width: 130px;
+    height: 35px;
+    margin-top: 60px;
+    margin-left: 5%;
+	border-radius:18px;
+    display:flex;
+    /* background-color: rgb(206, 38, 38); */
+    background-color: rgb(70, 70, 70);
+}
+.search_input img{
+    transform: scale(0.8,0.8);
+}
+.search_input input[type="text"]{
+    width: 100%;
+	font-size: 1.1em;
+    font-weight: 600;
+	outline: 0;
+	color: rgb(247, 247, 247);
+	border-radius:18px;
+	border:0px;
+    background-color: rgb(70, 70, 70);
+}
+/* 文字 */
+.search_text_div{
+    align-items: center;
+    display: flex;
+    position: relative;
+    /* background-color: antiquewhite; */
+    background-color: rgb(29, 29, 29);
+    width: 145px;
+    min-width: 145px;
+    height: 30px;
+    margin-left: 37%;
+    margin-top: 70px;
+}
+@media screen and (max-width: 1200px){
+    .search_text_div{
+        margin-left: 10%;
+    }
+}
+.search_text_div h3{
+    font-weight: 600;
+    font-size: 1em;
+    /* margin-left: 10px; */
+    color: rgb(161, 161, 161);
+}
+.search_text_div h3:hover{
+    color: rgb(241, 240, 240);
+}
+.search_text_div h4{
+    /* min- */
+    font-weight: 600;
+    margin-left: 30px;
+    color: rgb(161, 161, 161);
+    font-size: 1em;
+}
+.search_text_div h4:hover{
+    color: rgb(241, 240, 240);
+}
+
+/* 个人中心 */
+.search_self_div{
+    position: absolute;
+    background-color: rgb(29, 29, 29);
+    width: 80px; 
+    height: 80px;
+    margin-left: 85%;
+    margin-top: 35px;
+}
+.search_self_div img{
+    width: 100%;
+}
+@media screen and (max-width: 740px){
+    .search_self_div{
+        display: none;
+    }
+}
+.my_infor_div{
+    display: none;
+}
+/* 信息弹窗 */
+.search_self_div:hover .my_infor_div{
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(43, 43, 43);
+    margin-left: -200%;
+    margin-top: -15px;
+}
+.search_self_div h2{
+    font-size: 1.2em;
+    color: aliceblue;
+    padding-top: 17px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px rgb(92, 92, 92) solid;
+}
+.search_self_div h3{
+    font-size: 0.9em;
+    color: rgb(190, 192, 194);
+    padding-left: 10px;
+}
+.search_self_div h4{
+    font-size: 0.9em;
+    color: rgb(190, 192, 194);
+    padding-left: 10px;
+}
+.search_self_div h5{
+    font-size: 0.9em;
+    color: rgb(190, 192, 194);
+    padding-left: 10px;
+}
+.search_self_div h2:hover{
+    color: rgb(255, 255, 255);
+}
+.search_self_div h3:hover{
+    color: rgb(255, 255, 255);
+}
+.search_self_div h4:hover{
+    color: rgb(255, 255, 255);
+}
+.search_self_div h5:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* 商城个人游戏库  div */
+.leftthree_div{
+    margin-top: -10px;
+    width: 18%;
+    min-width: 122px;
+    background-color: rgb(29, 29, 29);
+    height: 730px;
+    position:fixed;
+}
+/* 商标div */
+.shangbiao_div{
+    display:flex;
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    /* border: 1px rebeccapurple solid; */
+}
+.shangbiao_div img {
+    width: 70%;
+    margin:0 auto;
+}
+/* 左侧  商店链接 */
+.zuo_store_div{
+    box-sizing:border-box;
+    align-items: center;
+    display:flex;
+    margin-top: 50px;
+    margin-left: 7%;
+    width: 80%;
+    height: 50px;
+    /* padding: */
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(68, 68, 68);
+    /* border: 1px red solid; */
+}
+.zuo_store_div:hover {
+    background-color: rgb(70, 70, 70);
+}
+.zuo_store_div:active{
+    border: 2px whitesmoke solid;
+}
+.zuo_store_div img{
+    float: left;
+    width: 37%;
+    margin-left: 10%px;
+    margin-top: -4%;
+    transform: rotate(30deg);
+}
+.zuo_store_div h1{
+    font-size: 1.5em;
+    font-weight: 530;
+    color: azure;
+    margin-left: 3%;
+}
+@media screen and (max-width:840px){
+    .zuo_store_div img{
+        display: none;
+    }
+    .zuo_store_div h1{
+        /* align-items: center; */
+        margin-left: 3px;
+      
+    }
+}
+/* 左侧游戏库 */
+.zuo_ku_div{
+    box-sizing: border-box;
+    align-items: center;
+    display:flex;
+    margin-top: 10px;
+    margin-left: 7%;
+    width: 80%;
+    height: 50px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(29, 29, 29);
+    /* border: 1px red solid; */
+}
+.zuo_ku_div:hover {
+    background-color: rgb(70, 70, 70);
+}
+.zuo_ku_div:active{
+    border: 2px whitesmoke solid;
+}
+.zuo_ku_div img{
+    float: left;
+    width: 30%;
+    margin-left: 10%px;
+    margin-top: 2%;
+}
+.zuo_ku_div h2{
+    color: azure;
+    font-size: 1.5em;
+    font-weight: 530;
+    margin-left: 10%;
+}
+@media screen and (max-width:840px){
+    .zuo_ku_div img{
+        display: none;
+    }
+    .zuo_ku_div h2{
+        margin-left: 3px;
+    }
+}
+/* 左侧社区 */
+.zuo_me_div{
+    box-sizing: border-box;
+    align-items: center;
+    display:flex;
+    margin-top: 10px;
+    margin-left: 7%;
+    width: 80%;
+    height: 50px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(29, 29, 29);
+}
+.zuo_me_div:hover {
+    background-color: rgb(70, 70, 70);
+}
+.zuo_me_div:active{
+    border: 2px whitesmoke solid;
+}
+.zuo_me_div img{
+    float: left;
+    width: 30%;
+    margin-left: 10%px;
+    margin-top: 2%;
+}
+.zuo_me_div h2{
+    color: azure;
+    font-size: 1.5em;
+    font-weight: 530;
+    margin-left: 10%;
+}
+
+.zuo_me_div img{
+        float: left;
+        width: 28%;
+        margin-left: 10%px;
+        margin-top: 2%;
+}
+.zuo_me_div h3{
+    color: azure;
+    font-size: 1.5em;
+    font-weight: 530;
+    margin-left: 13px;
+    margin-left: 12%;
+}
+@media screen and (max-width:840px){
+    .zuo_me_div img{
+        display: none;
+    }
+    .zuo_me_div h3{
+        margin-left: 3px;
+      
+    }
+}
+
+
+
+
+
+
+
+
+
+

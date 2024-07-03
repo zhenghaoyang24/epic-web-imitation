@@ -1,0 +1,596 @@
+@import "basic.css";
+
+/* 内容div */
+.container_div{
+
+    border-top: 2px solid white;
+
+    flex-wrap: wrap;
+    display: flex;
+    z-index: 1;
+    position:relative;
+    width: 82%;
+    margin-left: 18%;
+    margin-top: 130px;
+    height: 3900px;
+    background-color: rgb(29, 29, 29);
+    /* background-color: rgb(70, 70, 70); */
+
+}
+.right_select_div{
+    display: flex;
+    position: absolute;
+    /* align-items: center;
+    flex-wrap: wrap; */
+    height: 80px;
+    width: 98%;
+    margin-top: 20px;
+    margin-left: 1%;
+    /* background-color: rgb(175, 64, 64); */
+    background-color: rgb(29, 29, 29);
+}
+.select_1{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 18.4%;
+    height: 100%;
+    /* margin-left: 8%; */
+    background-color: rgb(56, 56, 56);
+}
+.select_2{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 18.4%;
+    height: 100%;
+    margin-left: 2%;
+    background-color: rgb(56, 56, 56);
+}
+.select_3{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 18.4%;
+    height: 100%;
+    margin-left: 2%;
+    background-color: rgb(56, 56, 56);
+}
+.select_4{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 18.4%;
+    height: 100%;
+    margin-left: 2%;
+    background-color: rgb(56, 56, 56);
+}
+.select_5{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 18.4%;
+    height: 100%;
+    margin-left: 2%;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: -7px;
+}
+/* 设置hover */
+.select_1:hover{
+    background-color: rgb(88, 88, 88);
+}
+.select_2:hover{
+    background-color: rgb(88, 88, 88);
+}
+.select_3:hover{
+    background-color: rgb(88, 88, 88);
+}
+.select_4:hover{
+    background-color: rgb(88, 88, 88);
+}
+.select_5:hover{
+    background-color: rgb(88, 88, 88);
+}
+/* 设置选择项字体样式及其对齐 */
+.select_1 a{
+    margin: 0 auto;
+    color: aliceblue;
+    font-size: 1.5em;
+    /* align-items: center; */
+    font-weight: 500;
+}
+.select_2 a{
+    margin: 0 auto;
+    color: aliceblue;
+    font-size: 1.5em;
+    /* align-items: center; */
+    font-weight: 500;
+}
+.select_3 a{
+    margin: 0 auto;
+    color: aliceblue;
+    font-size: 1.5em;
+    /* align-items: center; */
+    font-weight: 500;
+}
+.select_4 a{
+    margin: 0 auto;
+    color: aliceblue;
+    font-size: 1.5em;
+    /* align-items: center; */
+    font-weight: 500;
+}
+.select_5 a {
+    margin: 0 auto;
+    color: aliceblue;
+    font-size: 1.5em;
+    /* align-items: center; */
+    font-weight: 500;
+}
+
+/* 假期特卖 */
+.jiaqitemai_div{
+    position: relative;
+    width: 98%;
+    height: 10%;
+    margin-left: 1%;
+    margin-top: 130px;
+    /* background-color: rgb(95, 52, 163); */
+    background-color: rgb(29, 29, 29);
+}
+.jiaqitemai_div img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.jiaqitemai_div h3{
+    color: aliceblue;
+    font-size: 2em;
+    margin-top: -7%;
+    margin-left: 4%;
+    padding-bottom: 0px;
+}
+
+/* 精选 */
+.rexiao_div{
+
+    position:absolute;
+    /* display: flex; */
+    /* align-items: center; */
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 4%;
+    /* background-color: rgb(201, 81, 81); */
+    background-color: rgb(29, 29, 29);
+}
+.rexiao_div a h3{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: aliceblue;
+    font-size: 1.2em;
+}
+.rexiao_div a h3:hover{
+    color: rgb(86, 86, 87);
+}
+.rexiao_div a img{
+    width: 28%;
+    margin-top: -10px;
+    transition: all 0.5m;
+}
+.rexiao_1:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 5px 5px 8px rgb(77, 77, 77),-5px -5px 8px rgb(77, 77, 77);
+}
+.rexiao_2:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 5px 5px 8px rgb(77, 77, 77),-5px -5px 8px rgb(77, 77, 77);
+}
+.rexiao_3:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 5px 5px 8px rgb(77, 77, 77),-5px -5px 8px rgb(77, 77, 77);
+}
+.rexiao_1{
+    margin-left: 4%;
+    transition: all 0.3s;
+}
+.rexiao_2{
+    margin-left: 4%;
+    transition: all 0.3s;
+}
+.rexiao_3{
+    margin-left: 4%;
+    transition: all 0.3s;
+}
+
+/* 畅销 */
+.changxiao_div{
+
+    position: relative;
+    /* display: flex; */
+    width: 100%;
+        margin: 0 auto;
+    height: auto;
+    /* background-color: rgb(167, 12, 12); */
+    background-color: rgb(29, 29, 29);
+    margin-top: 47%;
+
+}
+.changxiao_div a h3{
+    margin-top: 0px;
+    margin-left: 10px;
+    color: aliceblue;
+    font-size: 1.2em;
+}
+.changxiao_div a h3:hover{
+    color: rgb(86, 86, 87);
+}
+.changxiao_div a img{
+    border-radius: 10px;
+    margin-top: -10px;
+    width: 18%;
+    /* display: block; */
+}
+.changxiao_1:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.changxiao_2:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.changxiao_3:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.changxiao_4:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.changxiao_5:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.changxiao_1{
+    margin-left: 1%;
+    transition: all 0.3s;
+}
+.changxiao_2{
+    margin-left: 1.2%;
+    transition: all 0.3s;
+}
+.changxiao_3{
+    margin-left: 1.2%;
+    transition: all 0.3s;
+}
+.changxiao_4{
+    margin-left: 1.2%;
+    transition: all 0.3s;
+}
+.changxiao_5{
+    margin-left: 1.2%;
+    transition: all 0.3s;
+}
+
+.free_div{
+    
+    position: relative;
+    /* display: flex; */
+    width: 100%;
+        margin: 0 auto;
+    height: auto;
+    /* background-color: rgb(167, 12, 12); */
+    background-color: rgb(29, 29, 29);
+    margin-top: 4%;
+}
+.free_div a h3:hover{
+    color: rgb(86, 86, 87);
+}
+.free_1:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.free_2:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.free_3:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.free_4:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.free_5:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.free_1{
+    margin-left: 1%;
+    transition: all 0.3s;
+}
+.free_2{
+    margin-left: 1.2%;
+    transition: all 0.3s;
+}
+.free_3{
+    margin-left: 1.2%;
+    transition: all 0.3s;
+}
+.free_4{
+    margin-left: 1.2%;
+    transition: all 0.3s;
+}
+.free_5{
+    margin-left: 1.2%;
+    transition: all 0.3s;
+}
+/* 分类 */
+.fenlei_div{
+    position: relative;
+    /* display: flex; */
+    width: 100%;
+        margin: 0 auto;
+    height: auto;
+    /* background-color: rgb(167, 12, 12); */
+    background-color: rgb(29, 29, 29);
+    margin-top: 4%;
+}
+.fenlei_div a h3{
+    margin-top: -15px;
+}
+.fenlei_div a h3:hover{
+    color: rgb(86, 86, 87);
+}
+.fenlei_1{
+    margin-left: 1%;
+    transition: all 0.3s;
+}
+.fenlei_2{
+    margin-left: 1.2%;
+    transition: all 0.3s;
+}
+.fenlei_3{
+    margin-left: 1.2%;
+    transition: all 0.3s;
+}
+.fenlei_4{
+    margin-left: 1.2%;
+    transition: all 0.3s;
+}
+.fenlei_5{
+    margin-left: 1.2%;
+    transition: all 0.3s;
+}
+.fenlei_1:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.fenlei_2:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.fenlei_3:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.fenlei_4:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.fenlei_5:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+}
+.paihang_div{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    /* background-color: rgb(167, 12, 12); */
+    background-color: rgb(29, 29, 29);
+    margin-top: 4%;
+}
+.pai_text{
+    width: 100%;
+    height: auto;
+}
+.paihang_div h4{
+    color:aliceblue;
+    margin-top: 20px;
+    display: block;
+}
+
+.paihang_div h3{
+    margin-top: 0px;
+    margin-left: 10px;
+    color: aliceblue;
+    font-size: 1.2em;
+}
+.paihang_div h3:hover{
+    display: block;
+    color: rgb(86, 86, 87);
+}
+/* 最热门 */
+.pai_zuo{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    /* background-color: #fff; */
+    background-color: rgb(29, 29, 29);
+}
+.pai_zuo a img{
+    width: 100%;
+    transition: all 0.3s;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.pai_zuo_1:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+.pai_zuo_2:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+.pai_zuo_3:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+.pai_zuo_4:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+.pai_zuo_5:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+/* 最畅销 */
+.pai_zhong{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    /* background-color: #fff; */
+    background-color: rgb(29, 29, 29);
+    margin-left: 5%;
+}
+.pai_zhong a img{
+    width: 100%;
+    transition: all 0.3s;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.pai_zhong_1:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+.pai_zhong_2:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+.pai_zhong_3:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+.pai_zhong_4:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+.pai_zhong_5:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+/* 最受期待 */
+.pai_you{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    /* background-color: #fff; */
+    background-color: rgb(29, 29, 29);
+    margin-left: 5%;
+}
+.pai_you a img{
+    width: 100%;
+    transition: all 0.3s;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.pai_you_1:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+.pai_you_2:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+.pai_you_3:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+.pai_you_4:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+.pai_you_5:hover{
+    /* margin-top: 400px; */
+    transform: scale(1.04,1.04);
+    transition: all 0.3s;
+    box-shadow: 4px 4px 10px rgb(77, 77, 77),-4px -4px 10px rgb(77, 77, 77);
+
+}
+
+.fotter{
+    margin-top: 300px;
+    width: 90%;
+    margin-left: 5%;
+    
+}

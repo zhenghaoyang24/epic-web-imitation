@@ -1,0 +1,14 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+
+body {
+    background-color: rgb(29, 29, 29);
+    margin: 0 auto;
+    /* min-width: 760px; */
+
+}

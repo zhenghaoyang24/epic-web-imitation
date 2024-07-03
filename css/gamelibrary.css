@@ -1,0 +1,202 @@
+@import "basic.css";
+@import "index.css";
+
+
+
+.library_container_div{
+    border-top: 2px solid white;
+    flex-wrap: wrap;
+    display: flex;
+    z-index: 1;
+    position:relative;
+    width: 82%;
+    margin-left: 18%;
+    margin-top: 130px;
+    height: 1000px;
+    /* background-color: rgb(29, 29, 29); */
+    background-color: rgb(29, 29, 29);
+
+}
+
+/* 左侧  商店链接 */
+.zuo_store_div_library{
+    box-sizing:border-box;
+    align-items: center;
+    display:flex;
+    margin-top: 50px;
+    margin-left: 7%;
+    width: 80%;
+    height: 50px;
+    /* padding: */
+    position: relative;
+    border-radius: 10px;
+    
+    background-color: rgb(29, 29, 29);
+    /* border: 1px red solid; */
+}
+.zuo_store_div_library:hover {
+    background-color: rgb(70, 70, 70);
+}
+.zuo_store_div_library:active{
+    border: 2px whitesmoke solid;
+}
+.zuo_store_div_library img{
+    float: left;
+    width: 37%;
+    margin-left: 10%px;
+    margin-top: -4%;
+    transform: rotate(30deg);
+}
+.zuo_store_div_library h1{
+    font-size: 1.5em;
+    font-weight: 530;
+    color: azure;
+    margin-left: 3%;
+}
+@media screen and (max-width:840px){
+    .zuo_store_div img{
+        display: none;
+    }
+    .zuo_store_div h1{
+        /* align-items: center; */
+        margin-left: 3px;
+      
+    }
+}
+/* 左侧游戏库 */
+.zuo_ku_div_library{
+    box-sizing: border-box;
+    align-items: center;
+    display:flex;
+    margin-top: 10px;
+    margin-left: 7%;
+    width: 80%;
+    height: 50px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(68, 68, 68);
+    /* border: 1px red solid; */
+}
+.zuo_ku_div_library:hover {
+    background-color: rgb(70, 70, 70);
+}
+.zuo_ku_div_library:active{
+    border: 2px whitesmoke solid;
+}
+.zuo_ku_div_library img{
+    float: left;
+    width: 30%;
+    margin-left: 10%px;
+    margin-top: 2%;
+}
+.zuo_ku_div_library h2{
+    color: azure;
+    font-size: 1.5em;
+    font-weight: 530;
+    margin-left: 10%;
+}
+@media screen and (max-width:840px){
+    .zuo_ku_div img{
+        display: none;
+    }
+    .zuo_ku_div h2{
+        margin-left: 3px;
+    }
+}
+
+
+.library_div{
+    z-index: 2;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:space-between;
+    /* justify-content: center; */
+}
+.library_div img{
+    width: 213px;
+    height: 286px;
+    margin: 10px auto;
+    transition: all 0.3s;
+}
+.library_1:hover{
+    transform :translate(0px,-50px);
+}
+.library_2:hover{
+    transform :translate(0px,-50px);
+}
+.library_3:hover{
+    transform :translate(0px,-50px);
+}
+.library_4:hover{
+    transform :translate(0px,-50px);
+}
+.library_5:hover{
+    transform :translate(0px,-50px);
+}
+.library_6:hover{
+    transform :translate(0px,-50px);
+}
+.library_7:hover{
+    transform :translate(0px,-50px);
+}
+.library_8:hover{
+    transform :translate(0px,-50px);
+}
+.library_9:hover{
+    transform :translate(0px,-50px);
+}
+.library_10:hover{
+    transform :translate(0px,-50px);
+}
+.library_11:hover{
+    transform :translate(0px,-50px);
+}
+.library_12:hover{
+    transform :translate(0px,-50px);
+}
+.library_13:hover{
+    transform :translate(0px,-50px);
+}
+.library_14:hover{
+    transform :translate(0px,-50px);
+}
+.library_15:hover{
+    transform :translate(0px,-50px);
+}
+
+.library_tanchuang_div{
+    /* z-index: 3; */
+    /* z-index: 4; */
+    position: absolute;
+    /* margin-top: 286px; */
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:space-between;
+    background-color: rgb(29, 29, 29);
+    
+}
+.library_tanchuang_div div{
+    width: 213px;
+    height: 286px;
+    margin: 10px auto;
+    background-color:rgb(94, 94, 94)
+    /* background-color: rgb(196, 13, 13,0.1); */
+}
+.library_tanchuang_div div h3{
+    margin-top: 115%;
+    margin-left: 30%;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
